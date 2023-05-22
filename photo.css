@@ -1,0 +1,41 @@
+body
+   {
+    background-image: linear-gradient(45deg, rgb(248, 131, 131),rgb(45, 38, 38),rgb(250, 241, 241));
+    background-repeat: no-repeat;
+   }
+h3 
+    {
+       
+    font-family: "Times New Roman", serif;
+    }
+h5
+    {
+        
+    font-family: Arial, sans-serif;
+    }
+#c1
+    {
+        font-family: cursive;
+    }
+#d1
+    {
+ 
+    background-image: url(./images/c1.jpg);
+    background-repeat: no-repeat;
+    width: 750px;
+    height:580px;
+    }
+
+.double-color-text {
+        background: linear-gradient(rgb(0, 255, 204), rgb(0, 174, 255));
+        background-clip: text;
+        -webkit-background-clip: text; /* Safari and older versions of Chrome */
+        color: transparent;
+        animation: colorChange 5s linear infinite;
+      }
+  
+      @keyframes colorChange {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
